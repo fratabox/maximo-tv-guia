@@ -1,0 +1,26 @@
+# Fuentes de la guía de programación (se actualiza sola varias veces al día).
+#
+# Una fuente por línea:   <sitio>  <PAÍS>
+#   - <sitio> es la carpeta de iptv-org/epg (ej. directv.com.uy).
+#   - Si el sitio tiene un archivo por país (como mi.tv), indicá el archivo sin la extensión:
+#       mi.tv/mi.tv_ar AR
+#   - <PAÍS> son dos letras (UY, AR, ES...). Usá "-" si la fuente mezcla países.
+#
+# Para agregar más canales o países, sumá una línea acá y guardá el archivo.
+# Otras fuentes disponibles que podés activar:
+#   mi.tv/mi.tv_ar AR        (Argentina, mi.tv)
+#   anteltv.com.uy UY        (Antel TV, Uruguay)
+#   nuevosiglo.com.uy UY     (Nuevo Siglo, Uruguay)
+#   orangetv.orange.es ES    (Orange TV, España)
+#   gatotv.com -             (GatoTV, muchos países; es pesada, ~1900 canales)
+
+# Fuentes activas (probadas desde GitHub el 16/11/2026):
+movistarplus.es ES
+reportv.com.ar AR
+mi.tv/mi.tv_ar AR
+cableplus.com.uy UY
+programacion.tcc.com.uy UY
+
+# Bloqueadas desde GitHub en la última prueba (devuelven error en vez de datos):
+#   directv.com.uy UY / directv.com.ar AR / gatotv.com - / nuevosiglo.com.uy UY
+#   anteltv.com.uy UY responde muy poco

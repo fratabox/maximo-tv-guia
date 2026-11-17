@@ -1,0 +1,70 @@
+#!/usr/bin/env python3
+"""Arma la lista de canales para el generador de guía a partir de guia/fuentes.txt.
+
+Uso: build_channels.py <carpeta sites de iptv-org/epg> <fuentes.txt> <salida.channels.xml>
+
+A cada canal le asigna un id propio y único con el formato PAIS|sitio|site_id,
+así la app sabe de qué país es cada guía aunque la fuente no traiga un id estándar.
+"""
+import glob
+import os
+import re
+import sys
+
+sites_dir, fuentes, salida = sys.argv[1:4]
+
+vistos = set()
+filas = []
+errores = []
+
+for linea in open(fuentes, encoding="utf-8"):
+    linea = linea.strip()
+    if not linea or linea.startswith("#"):
+        continue
+    partes = linea.split()
+    entrada = partes[0]
+    pais = partes[1].upper() if len(partes) > 1 else "-"
+
+    base = os.path.join(sites_dir, entrada)
+    if os.path.isdir(base):
+        archivos = sorted(glob.glob(os.path.join(base, "*.channels.xml")))
+    else:
+        archivos = [base + ".channels.xml"]
+
+    encontrados = 0
+    limite = int(os.environ.get("LIMITE_POR_FUENTE", "0"))  # solo para pruebas
+    for archivo in archivos:
+        if not os.path.isfile(archivo):
+            continue
+        texto = open(archivo, encoding="utf-8").read()
+        for m in re.finditer(r"<channel\b([^>]*)>(.*?)</channel>", texto, re.S):
+            if limite and encontrados >= limite:
+                break
+            attrs = dict(re.findall(r'([\w-]+)="([^"]*)"', m.group(1)))
+            site = attrs.get("site")
+            sid = attrs.get("site_id")
+            if not site or not sid:
+                continue
+            lang = attrs.get("lang", "es")
+            cid = f"{pais}|{site}|{sid}" if pais != "-" else f"{site}|{sid}"
+            if cid in vistos:
+                continue
+            vistos.add(cid)
+            filas.append(
+                f'  <channel site="{site}" site_id="{sid}" lang="{lang}" xmltv_id="{cid}">{m.group(2).strip()}</channel>'
+            )
+            encontrados += 1
+    print(f"{entrada} ({pais}): {encontrados} canales")
+    if encontrados == 0:
+        errores.append(entrada)
+
+with open(salida, "w", encoding="utf-8") as f:
+    f.write('<?xml version="1.0" encoding="UTF-8"?>\n<channels>\n')
+    f.write("\n".join(filas))
+    f.write("\n</channels>\n")
+
+print(f"Total: {len(filas)} canales")
+if errores:
+    print("AVISO: no se encontraron canales en: " + ", ".join(errores))
+if not filas:
+    sys.exit("No hay canales para descargar.")

@@ -1,0 +1,74 @@
+name: Actualizar guía
+
+on:
+  schedule:
+    - cron: "0 */8 * * *"
+  workflow_dispatch:
+
+permissions:
+  contents: write
+
+concurrency:
+  group: guia
+  cancel-in-progress: false
+
+jobs:
+  guia:
+    runs-on: ubuntu-latest
+    timeout-minutes: 240
+    steps:
+      - name: Descargar el código
+        uses: actions/checkout@v4
+
+      - name: Instalar Node
+        uses: actions/setup-node@v4
+        with:
+          node-version: 20
+
+      - name: Descargar el generador (iptv-org/epg)
+        run: |
+          git clone --depth 1 https://github.com/iptv-org/epg.git epg
+          cd epg
+          npm install --no-audit --no-fund
+
+      - name: Armar la lista de canales
+        run: python3 guia/build_channels.py epg/sites guia/fuentes.txt epg/custom.channels.xml
+
+      - name: Descargar la guía
+        working-directory: epg
+        run: npm run grab --- --channels=custom.channels.xml --days=2 --maxConnections=10 --output=guide.xml --gzip
+
+      - name: Verificar el resultado
+        run: |
+          ls -la epg/guide.xml* || true
+          [ -f epg/guide.xml.gz ] || gzip -kf epg/guide.xml
+          N=$(grep -c "<programme" epg/guide.xml || true)
+          echo "Programas descargados: $N"
+          if [ "${N:-0}" -lt 500 ]; then
+            echo "La guía quedó casi vacía; no se publica para no pisar la anterior."
+            exit 1
+          fi
+
+      - name: Publicar la guía
+        env:
+          GH_TOKEN: ${{ github.token }}
+        run: |
+          gh release view guia >/dev/null 2>&1 || gh release create guia \
+            --title "Guía de programación" \
+            --notes "Archivo generado automáticamente por el proceso Actualizar guía. No es una APK." \
+            --latest=false
+          gh release upload guia epg/guide.xml.gz --clobber
+
+      - name: Mantener activo el repositorio
+        run: |
+          # GitHub apaga los procesos programados de repos públicos tras 60 días sin actividad.
+          ULTIMO=$(git log -1 --format=%ct)
+          AHORA=$(date +%s)
+          if [ $((AHORA - ULTIMO)) -gt 1728000 ]; then
+            date -u +"Ultima actividad automatica: %Y-%m-%d" > ultima-actividad.txt
+            git config user.name "github-actions[bot]"
+            git config user.email "41898282+github-actions[bot]@users.noreply.github.com"
+            git add ultima-actividad.txt
+            git commit -m "Mantener activo el proceso programado"
+            git push
+          fi
