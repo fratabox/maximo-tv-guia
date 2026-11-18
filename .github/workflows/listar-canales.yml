@@ -1,0 +1,35 @@
+name: Listar canales de la guía
+
+on:
+  workflow_dispatch:
+
+permissions:
+  contents: write
+
+jobs:
+  listar:
+    runs-on: ubuntu-latest
+    steps:
+      - uses: actions/checkout@v4
+
+      - name: Descargar las fuentes (iptv-org/epg)
+        run: git clone --depth 1 https://github.com/iptv-org/epg.git epg
+
+      - name: Armar la lista de canales
+        run: python3 guia/build_channels.py epg/sites guia/fuentes.txt epg/custom.channels.xml
+
+      - name: Guardar canales.txt
+        run: |
+          python3 - <<'PY'
+          import re, html
+          t = open('epg/custom.channels.xml', encoding='utf-8').read()
+          rows = []
+          for m in re.finditer(r'xmltv_id="([^"]*)">(.*?)</channel>', t, re.S):
+              rows.append(html.unescape(m.group(1)) + "\t" + html.unescape(m.group(2).strip()))
+          open('guia/canales.txt', 'w', encoding='utf-8').write("\n".join(rows) + "\n")
+          PY
+          git config user.name "github-actions[bot]"
+          git config user.email "41898282+github-actions[bot]@users.noreply.github.com"
+          git add guia/canales.txt
+          git commit -m "Lista de canales de la guía" || exit 0
+          git push
