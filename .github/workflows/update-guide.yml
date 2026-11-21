@@ -49,6 +49,11 @@ jobs:
             exit 1
           fi
 
+      - name: Adaptar la guía a la lista del usuario (TiviMate)
+        run: |
+          python3 guia/adaptar.py epg/guide.xml guia/nombres.txt epg/guide-tivimate.xml
+          gzip -kf epg/guide-tivimate.xml
+
       - name: Guardar el estado de la guía
         run: |
           python3 - <<'PY'
@@ -72,7 +77,7 @@ jobs:
             --title "Guía de programación" \
             --notes "Archivo generado automáticamente por el proceso Actualizar guía. No es una APK." \
             --latest=false
-          gh release upload guia epg/guide.xml.gz --clobber
+          gh release upload guia epg/guide.xml.gz epg/guide-tivimate.xml.gz --clobber
 
       - name: Mantener activo el repositorio
         run: |
