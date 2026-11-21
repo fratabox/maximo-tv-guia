@@ -1,5 +1,4 @@
-guides/uy/directv.com.uy.xml 404 9379
-guides/es/directv.com.uy.xml 404 9379
-guides/uy/cableplus.com.uy.xml 404 9379
-guides/uy/anteltv.com.uy.xml 404 9379
+guides/ar/gatotv.com.epg.xml 404 9379
+guides/ar/gatotv.com.xml 404 9379
+guides/uy/gatotv.com.epg.xml 404 9379
 0 canales 0 programas
