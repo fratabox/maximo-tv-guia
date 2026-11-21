@@ -26,7 +26,7 @@ ALIAS = {"a3series": "atreseries", "antena 3 internacional": "antena 3", "natgeo
          "espn 1": "espn", "tyc sports int": "tyc sports", "fox sports 1": "fox sports", "gol tv": "gol",
          "tudn mex": "tudn", "tudn usa": "tudn", "tudn us": "tudn", "canal 12": "teledoce",
          "canal 12 la tele": "teledoce", "canal 4 monte carlo": "canal 4", "canal 4 montecarlo": "canal 4",
-         "montecarlo": "canal 4"}
+         "montecarlo": "canal 4", "dsports": "directv sports", "dsports plus": "directv sports plus"}
 CAT_PREFIX = {"cine", "deportes", "doc", "docs", "tv", "series"}
 GRUPO_PAIS = {"espana": "ES", "uruguay": "UY", "argentina": "AR"}
 
