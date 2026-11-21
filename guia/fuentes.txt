@@ -21,7 +21,7 @@ mi.tv/mi.tv_ar AR
 cableplus.com.uy UY
 programacion.tcc.com.uy UY
 epgshare01.online/epgshare01.online_UY1 UY
-epgshare01.online/epgshare01.online_DIRECTVSPORTS1 AR
+epgshare01.online/epgshare01.online_DIRECTVSPORTS1 -
 # Deportes, documentales y cine de otros países (filtrados para no alargar la descarga):
 mi.tv/mi.tv_mx MX solo:espn,fox,tudn,sport,deport,golf,tennis,win,gol,liga,nat geo,national,discovery,history,animal,smithsonian,hbo,cine,tnt,axn,studio,sony,warner,universal,fx,amc,star,syfy,paramount,tcm
 mi.tv/mi.tv_co CO solo:espn,fox,tudn,sport,deport,golf,tennis,win,gol,liga,nat geo,national,discovery,history,animal,smithsonian,hbo,cine,tnt,axn,studio,sony,warner,universal,fx,amc,star,syfy,paramount,tcm
