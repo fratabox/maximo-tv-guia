@@ -20,6 +20,7 @@ reportv.com.ar AR
 mi.tv/mi.tv_ar AR
 cableplus.com.uy UY
 programacion.tcc.com.uy UY
+nuevosiglo.com.uy UY
 
 # Bloqueadas desde GitHub en la última prueba (devuelven error en vez de datos):
 #   directv.com.uy UY / directv.com.ar AR / gatotv.com - / nuevosiglo.com.uy UY
