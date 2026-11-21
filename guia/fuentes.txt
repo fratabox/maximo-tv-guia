@@ -20,6 +20,11 @@ reportv.com.ar AR
 mi.tv/mi.tv_ar AR
 cableplus.com.uy UY
 programacion.tcc.com.uy UY
+# Deportes, documentales y cine de otros países (filtrados para no alargar la descarga):
+mi.tv/mi.tv_mx MX solo:espn,fox,tudn,sport,deport,golf,tennis,win,gol,liga,nat geo,national,discovery,history,animal,smithsonian,hbo,cine,tnt,axn,studio,sony,warner,universal,fx,amc,star,syfy,paramount,tcm
+mi.tv/mi.tv_co CO solo:espn,fox,tudn,sport,deport,golf,tennis,win,gol,liga,nat geo,national,discovery,history,animal,smithsonian,hbo,cine,tnt,axn,studio,sony,warner,universal,fx,amc,star,syfy,paramount,tcm
+mi.tv/mi.tv_cl CL solo:espn,fox,tudn,sport,deport,golf,tennis,win,gol,liga,nat geo,national,discovery,history,animal,smithsonian,hbo,cine,tnt,axn,studio,sony,warner,universal,fx,amc,star,syfy,paramount,tcm
+mi.tv/mi.tv_pe PE solo:espn,fox,tudn,sport,deport,golf,tennis,win,gol,liga,nat geo,national,discovery,history,animal,smithsonian,hbo,cine,tnt,axn,studio,sony,warner,universal,fx,amc,star,syfy,paramount,tcm
 
 # Bloqueadas desde GitHub en la última prueba (devuelven error en vez de datos):
 #   directv.com.uy UY / directv.com.ar AR / gatotv.com - / nuevosiglo.com.uy UY

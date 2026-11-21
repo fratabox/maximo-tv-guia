@@ -24,6 +24,11 @@ for linea in open(fuentes, encoding="utf-8"):
     partes = linea.split()
     entrada = partes[0]
     pais = partes[1].upper() if len(partes) > 1 else "-"
+    # Opcional: "solo:espn,fox,tudn" deja únicamente los canales cuyo nombre contiene alguna de esas palabras.
+    solo = []
+    for extra in partes[2:]:
+        if extra.lower().startswith("solo:"):
+            solo = [x.strip().lower() for x in extra[5:].split(",") if x.strip()]
 
     base = os.path.join(sites_dir, entrada)
     if os.path.isdir(base):
@@ -45,6 +50,10 @@ for linea in open(fuentes, encoding="utf-8"):
             sid = attrs.get("site_id")
             if not site or not sid:
                 continue
+            if solo:
+                nombre = re.sub(r"<[^>]+>", "", m.group(2)).strip().lower()
+                if not any(w in nombre for w in solo):
+                    continue
             lang = attrs.get("lang", "es")
             cid = f"{pais}|{site}|{sid}" if pais != "-" else f"{site}|{sid}"
             if cid in vistos:
