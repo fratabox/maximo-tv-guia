@@ -49,6 +49,21 @@ jobs:
             exit 1
           fi
 
+      - name: Guardar el estado de la guía
+        run: |
+          python3 - <<'PY'
+          import re, html, collections
+          x = open('epg/guide.xml', encoding='utf-8').read()
+          names = {k: html.unescape(v) for k, v in re.findall(r'<channel id="([^"]+)">\s*<display-name[^>]*>([^<]*)', x)}
+          c = collections.Counter(re.findall(r'<programme [^>]*channel="([^"]+)"', x))
+          rows = sorted(names.items())
+          open('guia/estado.txt', 'w', encoding='utf-8').write("\n".join(f"{k}\t{n}\t{c.get(k,0)}" for k, n in rows) + "\n")
+          PY
+          git config user.name "github-actions[bot]"
+          git config user.email "41898282+github-actions[bot]@users.noreply.github.com"
+          git add guia/estado.txt
+          git commit -m "Estado de la guía" && git pull --rebase -q && git push || true
+
       - name: Publicar la guía
         env:
           GH_TOKEN: ${{ github.token }}
