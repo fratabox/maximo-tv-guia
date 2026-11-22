@@ -67,6 +67,24 @@ for linea in open(fuentes, encoding="utf-8"):
     if encontrados == 0:
         errores.append(entrada)
 
+import os
+import html as _html
+extras = os.path.join(os.path.dirname(os.path.abspath(fuentes)), "extras.txt")
+if os.path.exists(extras):
+    for linea in open(extras, encoding="utf-8"):
+        linea = linea.strip()
+        if not linea or linea.startswith("#"):
+            continue
+        site, sid, pais_x, nombre = (linea.split("|", 3) + ["", "", "", ""])[:4]
+        cid = f"{pais_x}|{site}|{sid}"
+        if cid in vistos:
+            continue
+        vistos.add(cid)
+        filas.append(
+            f'  <channel site="{site}" site_id="{sid}" lang="es" xmltv_id="{cid}">{_html.escape(nombre, quote=False)}</channel>'
+        )
+        print(f"extra: {nombre}")
+
 with open(salida, "w", encoding="utf-8") as f:
     f.write('<?xml version="1.0" encoding="UTF-8"?>\n<channels>\n')
     f.write("\n".join(filas))

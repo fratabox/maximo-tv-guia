@@ -1,0 +1,15 @@
+# Canales que el generador aún no trae. Formato: sitio|id_del_sitio|PAIS|Nombre
+anteltv.com.uy|2sss2q5v|UY|VTV Fútbol 1
+anteltv.com.uy|2sss2qxr|UY|VTV Fútbol 2
+anteltv.com.uy|2sss2q50|UY|AntelTV Internacional 1
+anteltv.com.uy|2sss2qxn|UY|AntelTV Internacional 2
+anteltv.com.uy|2sss2qb5|UY|VTV
+anteltv.com.uy|2sss2qb9|UY|VTV Plus
+anteltv.com.uy|2sss2qbw|UY|FixTV
+anteltv.com.uy|2sss27wq|UY|Fix Movies
+anteltv.com.uy|2snj3|UY|Canal 4
+anteltv.com.uy|2sss2lwp|UY|24 hrs Gran Hermano
+anteltv.com.uy|2sss2lwg|UY|Programa Diario - GH
+anteltv.com.uy|2sss2l9v|UY|Caras y Caretas TV
+anteltv.com.uy|2sss2320|UY|CGTN Español
+anteltv.com.uy|2s684|UY|RT Español
