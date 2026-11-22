@@ -1,0 +1,31 @@
+name: Probar Antel TV
+
+on:
+  workflow_dispatch:
+
+permissions:
+  contents: write
+
+jobs:
+  probar:
+    runs-on: ubuntu-latest
+    steps:
+      - uses: actions/checkout@v4
+      - uses: actions/setup-node@v4
+        with:
+          node-version: 20
+      - name: Listar canales de Antel TV
+        run: |
+          git clone --depth 1 https://github.com/iptv-org/epg.git epgsrc
+          cd epgsrc
+          npm install --ignore-scripts --no-audit --no-fund axios dayjs > /dev/null 2>&1 || true
+          node -e "
+          const c = require('./sites/anteltv.com.uy/anteltv.com.uy.config.js');
+          c.channels().then(r => { console.log(JSON.stringify(r)); }).catch(e => console.log('ERROR ' + e.message));
+          " > ../guia/antel-canales.txt 2>&1 || true
+          cd ..
+          head -c 300 guia/antel-canales.txt
+          git config user.name "github-actions[bot]"
+          git config user.email "41898282+github-actions[bot]@users.noreply.github.com"
+          git add guia/antel-canales.txt
+          git commit -m "Canales de Antel TV" && git push || true
