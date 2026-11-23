@@ -54,6 +54,19 @@ jobs:
           python3 guia/adaptar.py epg/guide.xml guia/nombres.txt epg/guide-tivimate.xml
           gzip -kf epg/guide-tivimate.xml
 
+      - name: Guía liviana para la TV (webOS)
+        run: |
+          python3 guia/compactar.py epg/guide.xml epg/guide-tv.json
+          # Rama aparte con un solo commit: raw.githubusercontent.com permite leerla desde la app de la TV.
+          rm -rf /tmp/tv && mkdir /tmp/tv && cp epg/guide-tv.json /tmp/tv/
+          cd /tmp/tv
+          git init -q -b guia-tv
+          git config user.name "github-actions[bot]"
+          git config user.email "41898282+github-actions[bot]@users.noreply.github.com"
+          git add guide-tv.json
+          git commit -q -m "Guía para TV"
+          git push -q -f "https://x-access-token:${{ github.token }}@github.com/${{ github.repository }}.git" guia-tv
+
       - name: Guardar el estado de la guía
         run: |
           python3 - <<'PY'
