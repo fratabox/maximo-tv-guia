@@ -6,17 +6,9 @@ jobs:
     steps:
       - run: |
           python3 - <<'PY'
-          import json,urllib.request,datetime
-          slugs=["uefa.champions","esp.1","uru.1","conmebol.libertadores","conmebol.sudamericana","fifa.friendly","fifa.world","fifa.worldq.conmebol","fifa.world.u20","fifa.world.u17","uefa.europa"]
-          for d in ("20261124","20261125","20260615"):
-            for s in slugs:
-              u="https://site.api.espn.com/apis/site/v2/sports/soccer/%s/scoreboard?dates=%s"%(s,d)
-              try:
-                j=json.load(urllib.request.urlopen(urllib.request.Request(u,headers={"User-Agent":"Mozilla/5.0"}),timeout=20))
-              except Exception as e:
-                print(d,s,"ERR",e); continue
-              ev=j.get("events",[])
-              print(d,s,len(ev),(j.get("leagues") or [{}])[0].get("name"))
-              if ev and d=="20261125" and s=="uefa.champions" or (ev and d=="20261124" and s=="esp.1"):
-                print(json.dumps(ev[0],ensure_ascii=False)[:3500])
+          import json,urllib.request
+          for u in ["https://site.api.espn.com/apis/site/v2/sports/soccer/uefa.champions/scoreboard?dates=20261124-20261126","https://site.api.espn.com/apis/site/v2/sports/soccer/fifa.world.u17/scoreboard?dates=20261123-20261126&limit=100"]:
+            j=json.load(urllib.request.urlopen(urllib.request.Request(u,headers={"User-Agent":"Mozilla/5.0"}),timeout=20))
+            ev=j.get("events",[])
+            print("RANGE",len(ev),[e["date"] for e in ev][:30])
           PY
