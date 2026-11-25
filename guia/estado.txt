@@ -1,7 +1,7 @@
 AR|mi.tv|ar#24-7-canal-de-noticias	24/7 Canal de Noticias	20
 AR|mi.tv|ar#26-tv	Canal 26	30
 AR|mi.tv|ar#a-e-mundo	A&E	0
-AR|mi.tv|ar#a3cine	Atrescine	32
+AR|mi.tv|ar#a3cine	Atrescine	30
 AR|mi.tv|ar#amc	AMC	41
 AR|mi.tv|ar#america-2-capital	América TV	38
 AR|mi.tv|ar#america-24	A24	32
@@ -32,17 +32,17 @@ AR|mi.tv|ar#cba-24n	Canal U	34
 AR|mi.tv|ar#cine-latino	Cinelatino	33
 AR|mi.tv|ar#cinecanal	Cinecanal	24
 AR|mi.tv|ar#cinemax	Cinemax	29
-AR|mi.tv|ar#cinemax-sur	Cinemax (Sur)	28
-AR|mi.tv|ar#ciudad-abierta	Canal de la Ciudad	48
+AR|mi.tv|ar#cinemax-sur	Cinemax (Sur)	30
+AR|mi.tv|ar#ciudad-abierta	Canal de la Ciudad	36
 AR|mi.tv|ar#cn-23	CN23	0
-AR|mi.tv|ar#cnn	CNN	11
+AR|mi.tv|ar#cnn	CNN	26
 AR|mi.tv|ar#cnn-chile	CNN Chile	56
 AR|mi.tv|ar#cnn-en-espanol	CNN en Español	50
 AR|mi.tv|ar#comedy-central	Comedy Central	127
 AR|mi.tv|ar#conexion-educativa	Conexión Educativa	16
 AR|mi.tv|ar#construir	Construir TV	74
 AR|mi.tv|ar#cronica	Cronica	38
-AR|mi.tv|ar#de-pelicula	De Película	15
+AR|mi.tv|ar#de-pelicula	De Película	30
 AR|mi.tv|ar#dhe	DHE	29
 AR|mi.tv|ar#discovery	Discovery Channel	56
 AR|mi.tv|ar#discovery-civilization	Discovery Civilization	0
@@ -54,7 +54,7 @@ AR|mi.tv|ar#discovery-science	Discovery Science	62
 AR|mi.tv|ar#discovery-tlc	TLC	58
 AR|mi.tv|ar#discovery-turbo	Discovery Turbo	66
 AR|mi.tv|ar#discovery-world-hd	Discovery World	102
-AR|mi.tv|ar#disney	Disney Channel	115
+AR|mi.tv|ar#disney	Disney Channel	118
 AR|mi.tv|ar#disney-jr	Disney Junior	118
 AR|mi.tv|ar#disney-xd	Disney XD	0
 AR|mi.tv|ar#dxtv	DeporTV	37
@@ -63,7 +63,7 @@ AR|mi.tv|ar#el-garage	El Garage Tv	89
 AR|mi.tv|ar#el-gourmet	El Gourmet	94
 AR|mi.tv|ar#el-trece	Canal 13	30
 AR|mi.tv|ar#el-trece-satelital	Canal 13 (Satelital)	32
-AR|mi.tv|ar#encuentro	Encuentro	37
+AR|mi.tv|ar#encuentro	Encuentro	80
 AR|mi.tv|ar#entertainment	E!	0
 AR|mi.tv|ar#espn	ESPN	38
 AR|mi.tv|ar#espn-1	ESPN Extra	40
@@ -98,7 +98,7 @@ AR|mi.tv|ar#fox-sports-premium	FOX Sports Premium	32
 AR|mi.tv|ar#france-24-espanol	France 24 en Español	215
 AR|mi.tv|ar#fx	FX	29
 AR|mi.tv|ar#fx-movies	FX Movies	0
-AR|mi.tv|ar#galicia-tv	Galicia TV	23
+AR|mi.tv|ar#galicia-tv	Galicia TV	51
 AR|mi.tv|ar#glitz	Glitz	0
 AR|mi.tv|ar#gol-tv	Gol TV	0
 AR|mi.tv|ar#golden	Golden	26
@@ -111,7 +111,7 @@ AR|mi.tv|ar#hbo-2	HBO 2	27
 AR|mi.tv|ar#hbo-2-hd	HBO 2 HD	27
 AR|mi.tv|ar#hbo-family	HBO Family	30
 AR|mi.tv|ar#hbo-family-hd	HBO Family HD	30
-AR|mi.tv|ar#hbo-hd-este	HBO HD	14
+AR|mi.tv|ar#hbo-hd-este	HBO HD	30
 AR|mi.tv|ar#hbo-oeste	HBO Oeste	28
 AR|mi.tv|ar#hbo-oeste-hd	HBO Oeste HD	28
 AR|mi.tv|ar#hbo-plus-este	HBO Plus Este	27
@@ -127,20 +127,20 @@ AR|mi.tv|ar#hola-tv	Hola TV	73
 AR|mi.tv|ar#htv	HTV	8
 AR|mi.tv|ar#i-sat	I-SAT	0
 AR|mi.tv|ar#incaa-tv	CineAr	26
-AR|mi.tv|ar#investigation-discovery	Investigation Discovery	66
+AR|mi.tv|ar#investigation-discovery	Investigation Discovery	67
 AR|mi.tv|ar#ivc	IVC	0
 AR|mi.tv|ar#la-nacion	LN+	26
 AR|mi.tv|ar#lifetime	Lifetime	0
 AR|mi.tv|ar#magazine	Ciudad Magazine	60
 AR|mi.tv|ar#mas-chic	Más Chic	58
 AR|mi.tv|ar#max	HBO Mundi	25
-AR|mi.tv|ar#max-prime	HBO Xtreme	28
+AR|mi.tv|ar#max-prime	HBO Xtreme	29
 AR|mi.tv|ar#max-prime-o	HBO Xtreme (Oeste)	0
-AR|mi.tv|ar#max-prime-panamericano-hd	HBO Xtreme (Panamericano HD)	28
+AR|mi.tv|ar#max-prime-panamericano-hd	HBO Xtreme (Panamericano HD)	29
 AR|mi.tv|ar#max-prime-panregional-hd	HBO Xtreme (Panregional HD)	0
 AR|mi.tv|ar#max-up	HBO Pop	29
 AR|mi.tv|ar#metro	Metro	83
-AR|mi.tv|ar#mtv	MTV	86
+AR|mi.tv|ar#mtv	MTV	84
 AR|mi.tv|ar#mtv-hits	MTV Hits	0
 AR|mi.tv|ar#muchmusic	MuchMusic	0
 AR|mi.tv|ar#musictop	Musictop	48
@@ -153,7 +153,7 @@ AR|mi.tv|ar#nick-jr	Nick Jr.	144
 AR|mi.tv|ar#nickelodeon	Nick	134
 AR|mi.tv|ar#nickelodeon-hd	Nick 2	0
 AR|mi.tv|ar#nicktoons	NickToons	0
-AR|mi.tv|ar#pakapaka	Pakapaka	79
+AR|mi.tv|ar#pakapaka	Pakapaka	158
 AR|mi.tv|ar#paramount-channel	Paramount Network	0
 AR|mi.tv|ar#pasiones	Pasiones	48
 AR|mi.tv|ar#penthouse	Penthouse Gold	32
@@ -164,7 +164,7 @@ AR|mi.tv|ar#russia-today-hd	Russia Today HD	103
 AR|mi.tv|ar#smithsonian-channel	Smithsonian Channel	0
 AR|mi.tv|ar#sony	Sony	39
 AR|mi.tv|ar#sony-hd	Sony HD	39
-AR|mi.tv|ar#space	Space	15
+AR|mi.tv|ar#space	Space	31
 AR|mi.tv|ar#studio-universal	Studio Universal	30
 AR|mi.tv|ar#syfy	Syfy	0
 AR|mi.tv|ar#tateti	TaTeTi	0
@@ -175,7 +175,7 @@ AR|mi.tv|ar#telediario	Telediario	38
 AR|mi.tv|ar#telefe	Telefe	40
 AR|mi.tv|ar#telefe-rosario	Telefe Rosario	42
 AR|mi.tv|ar#telefe-santa-fe	Telefe Santa Fe	43
-AR|mi.tv|ar#telehit-lat	Telehit	28
+AR|mi.tv|ar#telehit-lat	Telehit	56
 AR|mi.tv|ar#telemax	Telemax	28
 AR|mi.tv|ar#telemundo	Telemundo Internacional	0
 AR|mi.tv|ar#teleocho	Telefe Córdoba	45
@@ -184,7 +184,7 @@ AR|mi.tv|ar#teveciudad	TV Ciudad	47
 AR|mi.tv|ar#tierra-mia-tv	Tierra Mía TV	44
 AR|mi.tv|ar#tlnovelas	TLNovelas	42
 AR|mi.tv|ar#tn	TN	25
-AR|mi.tv|ar#tnt	TNT	15
+AR|mi.tv|ar#tnt	TNT	38
 AR|mi.tv|ar#tnt-series	TNT Series	63
 AR|mi.tv|ar#tnt-sports	TNT Sports	35
 AR|mi.tv|ar#tooncast	Tooncast	237
@@ -206,7 +206,7 @@ AR|mi.tv|ar#vh1-mega-hits	VH1 Mega Hits	0
 AR|mi.tv|ar#viajar	Viajar	0
 AR|mi.tv|ar#volver	Volver	41
 AR|mi.tv|ar#vtv	VTV	45
-AR|mi.tv|ar#warner-channel	Warner Channel	63
+AR|mi.tv|ar#warner-channel	Warner Channel	68
 AR|mi.tv|ar#zoomoo	ZooMoo	281
 AR|reportv.com.ar|0	Todos	9012
 AR|reportv.com.ar|1054	CLASICOS INSTRUMENTALES	4
@@ -372,7 +372,7 @@ AR|reportv.com.ar|933	VH1 CLASSIC	0
 AR|reportv.com.ar|934	MERIDIANO TV	49
 AR|reportv.com.ar|967	CANAL I	65
 CL|mi.tv|cl#america-sports	América Sports	75
-CL|mi.tv|cl#espn	ESPN Extra	40
+CL|mi.tv|cl#espn	ESPN Extra	42
 CL|mi.tv|cl#espn-2	ESPN 2	38
 CL|mi.tv|cl#espn-3	ESPN 3	34
 CL|mi.tv|cl#espn-4	ESPN	35
@@ -381,7 +381,7 @@ CL|mi.tv|cl#fox-sports	FOX Sports	30
 CL|mi.tv|cl#fox-sports-1-hd	FOX Sports 1 HD	38
 CL|mi.tv|cl#fox-sports-2	FOX Sports 2	40
 CL|mi.tv|cl#fox-sports-3	FOX Sports 3	35
-CL|mi.tv|cl#fox-sports-basico	FOX Sports Básico	33
+CL|mi.tv|cl#fox-sports-basico	FOX Sports Básico	35
 CL|mi.tv|cl#gol-tv	GOL TV	0
 CL|mi.tv|cl#golden	Golden	26
 CL|mi.tv|cl#golden-edge	Golden Edge	25
@@ -391,12 +391,12 @@ CL|mi.tv|cl#nat-geo-kids	Nat Geo Kids	0
 CL|mi.tv|cl#nat-geo-wild	National Geographic Wild	0
 CL|mi.tv|cl#nat-geo-wild-hd	Nat Geo Wild HD	0
 CL|mi.tv|cl#national-geographic	National Geographic	54
-CL|mi.tv|cl#tyc-sports	TyC Sports	31
+CL|mi.tv|cl#tyc-sports	TyC Sports	32
 CO|mi.tv|co#espn	ESPN	38
 CO|mi.tv|co#espn-2	ESPN 2	38
 CO|mi.tv|co#espn-3	ESPN 3	34
-CO|mi.tv|co#espn-3-hd	ESPN 3 HD	16
-CO|mi.tv|co#espn-plus	ESPN Extra	40
+CO|mi.tv|co#espn-3-hd	ESPN 3 HD	34
+CO|mi.tv|co#espn-plus	ESPN Extra	42
 CO|mi.tv|co#fox-news-internacional	FOX News Internacional	48
 CO|mi.tv|co#fox-sports	FOX Sports	29
 CO|mi.tv|co#fox-sports-2	FOX Sports 2	38
@@ -410,88 +410,88 @@ CO|mi.tv|co#golden-premier-hd	Golden Premier HD	32
 CO|mi.tv|co#golf-channel	Golf Channel	20
 CO|mi.tv|co#golf-channel-hd	Golf Channel HD	20
 CO|mi.tv|co#hbo-signature	HBO Signature	35
-CO|mi.tv|co#hbo-signature-hd	HBO Signature HD	17
+CO|mi.tv|co#hbo-signature-hd	HBO Signature HD	35
 CO|mi.tv|co#nat-geo-wild	National Geographic Wild	0
 CO|mi.tv|co#nat-geo-wild-hd	Nat Geo Wild HD	0
 CO|mi.tv|co#national-geographic	National Geographic	54
 CO|mi.tv|co#national-geographic-hd	National Geographic HD	54
 CO|mi.tv|co#trace-sports-stars	TRACE Sports Stars	92
 CO|mi.tv|co#trace-sports-stars-hd	TRACE Sports Stars HD	92
-CO|mi.tv|co#tyc-sports-hd	TyC Sports HD	31
+CO|mi.tv|co#tyc-sports-hd	TyC Sports HD	32
 CO|mi.tv|co#win-sports	Win Sports	27
 CO|mi.tv|co#win-sports-hd	Win Sports HD	27
-ES|movistarplus.es|13TV	TRECE	36
-ES|movistarplus.es|24H	24 Horas	57
+ES|movistarplus.es|13TV	TRECE	35
+ES|movistarplus.es|24H	24 Horas	54
 ES|movistarplus.es|A3	Antena 3	45
 ES|movistarplus.es|ALJAZE	Al Jazeera English	76
 ES|movistarplus.es|ANTV	Canal Sur Andalucía	39
 ES|movistarplus.es|ARAGON	Aragón TV Int	44
 ES|movistarplus.es|ARTHUR	M+ Deportes 2	25
-ES|movistarplus.es|ATRESS	Atreseries	38
-ES|movistarplus.es|AXN	AXN	50
-ES|movistarplus.es|BABY	Baby TV	230
+ES|movistarplus.es|ATRESS	Atreseries	33
+ES|movistarplus.es|AXN	AXN	51
+ES|movistarplus.es|BABY	Baby TV	229
 ES|movistarplus.es|BBC	BBC News	108
 ES|movistarplus.es|BBCEAR	BBC Earth	69
-ES|movistarplus.es|BBCLIF	BBC Lifestyle	58
+ES|movistarplus.es|BBCLIF	BBC Lifestyle	57
 ES|movistarplus.es|BBDRA	BBC Series	53
-ES|movistarplus.es|BBFOO	BBC Food	77
+ES|movistarplus.es|BBFOO	BBC Food	74
 ES|movistarplus.es|BBGEA	BBC Top Gear	58
-ES|movistarplus.es|BBHIS	BBC History	60
-ES|movistarplus.es|BEMAD	BE MAD	30
-ES|movistarplus.es|BL	Bloomberg	41
-ES|movistarplus.es|BOING	Boing	185
+ES|movistarplus.es|BBHIS	BBC History	59
+ES|movistarplus.es|BEMAD	BE MAD	33
+ES|movistarplus.es|BL	Bloomberg	42
+ES|movistarplus.es|BOING	Boing	173
 ES|movistarplus.es|C4	Cuatro	39
-ES|movistarplus.es|CAZPES	Caza y Pesca	96
+ES|movistarplus.es|CAZPES	Caza y Pesca	95
 ES|movistarplus.es|CCTV-E	CGTN Español	100
-ES|movistarplus.es|CHAP1	M+ Liga de Campeones 2	16
-ES|movistarplus.es|CHAP10	M+ Liga de Campeones 11	12
-ES|movistarplus.es|CHAP11	M+ Liga de Campeones 12	12
-ES|movistarplus.es|CHAP12	M+ Liga de Campeones 13	12
-ES|movistarplus.es|CHAP2	M+ Liga de Campeones 3	16
-ES|movistarplus.es|CHAP3	M+ Liga de Campeones 4	14
-ES|movistarplus.es|CHAP4	M+ Liga de Campeones 5	14
-ES|movistarplus.es|CHAP5	M+ Liga de Campeones 6	14
-ES|movistarplus.es|CHAP6	M+ Liga de Campeones 7	14
-ES|movistarplus.es|CHAP7	M+ Liga de Campeones 8	14
-ES|movistarplus.es|CHAP8	M+ Liga de Campeones 9	14
-ES|movistarplus.es|CHAP9	M+ Liga de Campeones 10	12
+ES|movistarplus.es|CHAP1	M+ Liga de Campeones 2	15
+ES|movistarplus.es|CHAP10	M+ Liga de Campeones 11	11
+ES|movistarplus.es|CHAP11	M+ Liga de Campeones 12	11
+ES|movistarplus.es|CHAP12	M+ Liga de Campeones 13	11
+ES|movistarplus.es|CHAP2	M+ Liga de Campeones 3	15
+ES|movistarplus.es|CHAP3	M+ Liga de Campeones 4	13
+ES|movistarplus.es|CHAP4	M+ Liga de Campeones 5	13
+ES|movistarplus.es|CHAP5	M+ Liga de Campeones 6	13
+ES|movistarplus.es|CHAP6	M+ Liga de Campeones 7	13
+ES|movistarplus.es|CHAP7	M+ Liga de Campeones 8	13
+ES|movistarplus.es|CHAP8	M+ Liga de Campeones 9	13
+ES|movistarplus.es|CHAP9	M+ Liga de Campeones 10	11
 ES|movistarplus.es|CHAPIO	M+ Liga de Campeones	36
-ES|movistarplus.es|CL13	Calle 13	47
+ES|movistarplus.es|CL13	Calle 13	48
 ES|movistarplus.es|CLANTV	Clan TVE	173
 ES|movistarplus.es|CLASSD	Classica	53
-ES|movistarplus.es|CNN	CNN Int	58
-ES|movistarplus.es|COSMO	COSMO	40
-ES|movistarplus.es|CPACCI	M+ Acción	29
+ES|movistarplus.es|CNN	CNN Int	57
+ES|movistarplus.es|COSMO	COSMO	38
+ES|movistarplus.es|CPACCI	M+ Acción	31
 ES|movistarplus.es|CPCOLE	M+ Drama	27
-ES|movistarplus.es|CPCOME	M+ Comedia	35
-ES|movistarplus.es|CPDEP	M+ Deportes	41
+ES|movistarplus.es|CPCOME	M+ Comedia	33
+ES|movistarplus.es|CPDEP	M+ Deportes	42
 ES|movistarplus.es|DAZB2	DAZN Baloncesto 2	14
 ES|movistarplus.es|DAZB3	DAZN Baloncesto 3	15
-ES|movistarplus.es|DAZBA	DAZN Baloncesto	14
-ES|movistarplus.es|DAZMOT	DAZN MotoGP	16
+ES|movistarplus.es|DAZBA	DAZN Baloncesto	15
+ES|movistarplus.es|DAZMOT	DAZN MotoGP	17
 ES|movistarplus.es|DAZN3	DAZN 3	14
 ES|movistarplus.es|DAZN4	DAZN 4	14
 ES|movistarplus.es|DAZNL2	DAZN LALIGA 2	14
-ES|movistarplus.es|DAZNLI	DAZN LALIGA	34
-ES|movistarplus.es|DCESP	M+ Cine Español	31
-ES|movistarplus.es|DCR	Discovery	77
-ES|movistarplus.es|DCRMAX	DMAX	63
-ES|movistarplus.es|DIVINI	Divinity	60
+ES|movistarplus.es|DAZNLI	DAZN LALIGA	36
+ES|movistarplus.es|DCESP	M+ Cine Español	30
+ES|movistarplus.es|DCR	Discovery	76
+ES|movistarplus.es|DCRMAX	DMAX	64
+ES|movistarplus.es|DIVINI	Divinity	59
 ES|movistarplus.es|DKISS	DKISS	64
 ES|movistarplus.es|DWSP	Dreamworks	116
-ES|movistarplus.es|ENERGY	Energy	61
-ES|movistarplus.es|ENW	Euronews	189
-ES|movistarplus.es|ESP	Eurosport 1	48
-ES|movistarplus.es|ESP2	Eurosport 2	48
-ES|movistarplus.es|ETB	etb2ON	62
-ES|movistarplus.es|ETB3	etb1ON	71
+ES|movistarplus.es|ENERGY	Energy	60
+ES|movistarplus.es|ENW	Euronews	192
+ES|movistarplus.es|ESP	Eurosport 1	47
+ES|movistarplus.es|ESP2	Eurosport 2	49
+ES|movistarplus.es|ETB	etb2ON	71
+ES|movistarplus.es|ETB3	etb1ON	69
 ES|movistarplus.es|EXTREM	Canal Extremadura Sat	59
-ES|movistarplus.es|FDFIC	Factoría de Ficción	36
-ES|movistarplus.es|FLIX1	Canal FlixOlé 1	35
+ES|movistarplus.es|FDFIC	Factoría de Ficción	37
+ES|movistarplus.es|FLIX1	Canal FlixOlé 1	34
 ES|movistarplus.es|FLIX2	Canal FlixOlé 2	34
 ES|movistarplus.es|FOXGE	STAR Channel	59
-ES|movistarplus.es|FRANCE	FRANCE24 (FR)	206
-ES|movistarplus.es|GOL	GOL	41
+ES|movistarplus.es|FRANCE	FRANCE24 (FR)	210
+ES|movistarplus.es|GOL	GOL	31
 ES|movistarplus.es|GOLF+	M+ Golf	0
 ES|movistarplus.es|GOLF2	M+ Golf 2	6
 ES|movistarplus.es|INTECO	El Toro TV	34
@@ -500,59 +500,59 @@ ES|movistarplus.es|LA2	LA 2	62
 ES|movistarplus.es|M1SD	DAZN 1	25
 ES|movistarplus.es|M2SD	DAZN 2	16
 ES|movistarplus.es|MAXAVA	HBO Max Avances	60
-ES|movistarplus.es|MBALC2	M+ Baloncesto 2	12
+ES|movistarplus.es|MBALC2	M+ Baloncesto 2	13
 ES|movistarplus.es|MBALC3	M+ Baloncesto 3	10
-ES|movistarplus.es|MBALCT	M+ Baloncesto	18
+ES|movistarplus.es|MBALCT	M+ Baloncesto	17
 ES|movistarplus.es|MCLAS	M+ Clásicos	30
-ES|movistarplus.es|MCOPA	Primera Federación	22
+ES|movistarplus.es|MCOPA	Primera Federación	23
 ES|movistarplus.es|MDOC	M+ Documentales	48
-ES|movistarplus.es|MEGA	Mega	52
-ES|movistarplus.es|MELLAV	M+ Vamos 3	7
+ES|movistarplus.es|MEGA	Mega	51
+ES|movistarplus.es|MELLAV	M+ Vamos 3	13
 ES|movistarplus.es|MEZZLI	Mezzo Live	30
-ES|movistarplus.es|MEZZO	Mezzo	34
-ES|movistarplus.es|MHITS	M+ Hits	28
-ES|movistarplus.es|MINDI	M+ Indie	36
+ES|movistarplus.es|MEZZO	Mezzo	33
+ES|movistarplus.es|MHITS	M+ Hits	27
+ES|movistarplus.es|MINDI	M+ Indie	35
 ES|movistarplus.es|MLIG1	M+ LALIGA 2	6
 ES|movistarplus.es|MLIG2	M+ LALIGA 3	6
 ES|movistarplus.es|MLIG3	M+ LALIGA 4	6
-ES|movistarplus.es|MLIGA	M+ LALIGA	94
+ES|movistarplus.es|MLIGA	M+ LALIGA	77
 ES|movistarplus.es|MLIGS	LALIGA TV HYPERMOTION	14
 ES|movistarplus.es|MLIGS2	LALIGA TV HYPERMOTION 2	14
 ES|movistarplus.es|MLIGS3	LALIGA TV HYPERMOTION 3	14
 ES|movistarplus.es|MORGUL	M+ Orgullo	0
 ES|movistarplus.es|MORIG	M+ Originales	68
-ES|movistarplus.es|MPLUS	Movistar Plus	53
-ES|movistarplus.es|MTV	MTV	84
+ES|movistarplus.es|MPLUS	Movistar Plus	54
+ES|movistarplus.es|MTV	MTV	86
 ES|movistarplus.es|MULTI6	M+ Deportes 7	0
 ES|movistarplus.es|MULTI8	M+ Deportes 6	6
 ES|movistarplus.es|MULTI9	M+ Deportes 8	0
 ES|movistarplus.es|MV1	M+ Estrenos	31
 ES|movistarplus.es|MVCIVA	M+ Vacaciones	0
-ES|movistarplus.es|MVF1	DAZN F1	32
-ES|movistarplus.es|NATGEO	National Geographic	60
-ES|movistarplus.es|NATGW	Nat Geo Wild	68
+ES|movistarplus.es|MVF1	DAZN F1	33
+ES|movistarplus.es|NATGEO	National Geographic	61
+ES|movistarplus.es|NATGW	Nat Geo Wild	67
 ES|movistarplus.es|NBC	CNBC	75
 ES|movistarplus.es|NEGOTV	Negocios TV	31
-ES|movistarplus.es|NEOX	Neox	51
-ES|movistarplus.es|NICK	Nickelodeon	110
-ES|movistarplus.es|NICKJR	NICK JR	166
-ES|movistarplus.es|NOVA	Nova	43
-ES|movistarplus.es|PCM	Comedy Central	86
+ES|movistarplus.es|NEOX	Neox	49
+ES|movistarplus.es|NICK	Nickelodeon	107
+ES|movistarplus.es|NICKJR	NICK JR	163
+ES|movistarplus.es|NOVA	Nova	40
+ES|movistarplus.es|PCM	Comedy Central	88
 ES|movistarplus.es|PLAYDC	Disney Channel	134
-ES|movistarplus.es|REALM	Real Madrid TV	21
+ES|movistarplus.es|REALM	Real Madrid TV	18
 ES|movistarplus.es|RED	Canal RED	36
 ES|movistarplus.es|SCI-FI	SYFY	53
 ES|movistarplus.es|SET	AXN Movies	30
-ES|movistarplus.es|SEXTA	La Sexta	44
+ES|movistarplus.es|SEXTA	La Sexta	43
 ES|movistarplus.es|SKYSHO	SkyShowtime 1	78
-ES|movistarplus.es|SQUI	Squirrel	23
+ES|movistarplus.es|SQUI	Squirrel	20
 ES|movistarplus.es|T5	Telecinco	46
 ES|movistarplus.es|TCM	TCM	30
-ES|movistarplus.es|TDEP	Teledeporte	47
+ES|movistarplus.es|TDEP	Teledeporte	25
 ES|movistarplus.es|TELMIN	Telemadrid Int.	49
-ES|movistarplus.es|TEN	Ten	54
+ES|movistarplus.es|TEN	Ten	56
 ES|movistarplus.es|TNT	Warner TV	65
-ES|movistarplus.es|TV5	TV5MONDE	124
+ES|movistarplus.es|TV5	TV5MONDE	125
 ES|movistarplus.es|TVC	TV3 Cat	48
 ES|movistarplus.es|TVE	LA 1	34
 ES|movistarplus.es|TVG	TVG Europa	52
@@ -560,12 +560,12 @@ ES|movistarplus.es|UCL	UCL	66
 ES|movistarplus.es|USOP11	M+ Deportes 5	6
 ES|movistarplus.es|USOP2	M+ Deportes 3	6
 ES|movistarplus.es|USOP3	M+ Deportes 4	6
-ES|movistarplus.es|VAM2SD	M+ Vamos 2	9
+ES|movistarplus.es|VAM2SD	M+ Vamos 2	15
 ES|movistarplus.es|VAMOSD	M+ Vamos	42
-ES|movistarplus.es|VEO7	Veo7	62
+ES|movistarplus.es|VEO7	Veo7	61
 MX|mi.tv|mx#espn	ESPN	39
 MX|mi.tv|mx#espn-2	ESPN 2	43
-MX|mi.tv|mx#espn-3	ESPN 3	16
+MX|mi.tv|mx#espn-3	ESPN 3	34
 MX|mi.tv|mx#espn-hd	ESPN HD	0
 MX|mi.tv|mx#espn-plus-hd	ESPN+ HD	0
 MX|mi.tv|mx#fox-sports	FOX Sports	52
@@ -587,7 +587,7 @@ PE|mi.tv|pe#golden-edge	Golden Edge	25
 PE|mi.tv|pe#nat-geo-kids	Nat Geo Kids	0
 PE|mi.tv|pe#nat-geo-wild	National Geographic Wild	0
 PE|mi.tv|pe#national-geographic	National Geographic	54
-PE|mi.tv|pe#tyc-sports	TyC Sports	31
+PE|mi.tv|pe#tyc-sports	TyC Sports	32
 UY|anteltv.com.uy|2s684	RT Español	96
 UY|anteltv.com.uy|2snj3	Canal 4	31
 UY|anteltv.com.uy|2sss2320	CGTN Español	80
@@ -601,7 +601,7 @@ UY|anteltv.com.uy|2sss2qb5	VTV	45
 UY|anteltv.com.uy|2sss2qb9	VTV Plus	42
 UY|anteltv.com.uy|2sss2qbw	FixTV	43
 UY|anteltv.com.uy|2sss2qxn	AntelTV Internacional 2	25
-UY|anteltv.com.uy|2sss2qxr	VTV Fútbol 2	23
+UY|anteltv.com.uy|2sss2qxr	VTV Fútbol 2	0
 UY|cableplus.com.uy|100	AXN	56
 UY|cableplus.com.uy|1011	CITYTV	38
 UY|cableplus.com.uy|1019	NATIONAL GEOGRAPHIC	51
@@ -1029,103 +1029,103 @@ UY|programacion.tcc.com.uy|195	La Tele HD	39
 UY|programacion.tcc.com.uy|197	HBO 2 HD	27
 UY|programacion.tcc.com.uy|198	HBO Signature HD	35
 UY|programacion.tcc.com.uy|211	I-Sat SD	0
-UY|programacion.tcc.com.uy|212	Multipremier SD	31
-UY|programacion.tcc.com.uy|213	TCM SD	28
+UY|programacion.tcc.com.uy|212	Multipremier SD	30
+UY|programacion.tcc.com.uy|213	TCM SD	27
 UY|programacion.tcc.com.uy|220	FX HD	0
 UY|programacion.tcc.com.uy|221	SYFY SD	0
-UY|programacion.tcc.com.uy|263	HBO HD	30
+UY|programacion.tcc.com.uy|263	HBO HD	29
 UY|programacion.tcc.com.uy|265	Claro Sports HD	37
 UY|programacion.tcc.com.uy|266	bitMe HD	60
 UY|programacion.tcc.com.uy|268	RAI Italia HD	56
 UY|programacion.tcc.com.uy|269	TVE	49
-UY|programacion.tcc.com.uy|270	France 24 HD	239
-UY|programacion.tcc.com.uy|271	RT HD	107
+UY|programacion.tcc.com.uy|270	France 24 HD	242
+UY|programacion.tcc.com.uy|271	RT HD	109
 UY|programacion.tcc.com.uy|272	HBO Plus HD	27
-UY|programacion.tcc.com.uy|273	AMC HD	42
-UY|programacion.tcc.com.uy|274	Cartoon Network	225
-UY|programacion.tcc.com.uy|275	STAR Channel HD	29
-UY|programacion.tcc.com.uy|280	Discovery HD	56
-UY|programacion.tcc.com.uy|281	TNT HD	28
+UY|programacion.tcc.com.uy|273	AMC HD	43
+UY|programacion.tcc.com.uy|274	Cartoon Network	228
+UY|programacion.tcc.com.uy|275	STAR Channel HD	30
+UY|programacion.tcc.com.uy|280	Discovery HD	54
+UY|programacion.tcc.com.uy|281	TNT HD	27
 UY|programacion.tcc.com.uy|282	TNT Series HD	62
-UY|programacion.tcc.com.uy|283	Space HD	29
+UY|programacion.tcc.com.uy|283	Space HD	27
 UY|programacion.tcc.com.uy|284	Disney Channel HD	113
-UY|programacion.tcc.com.uy|286	Disney Jr HD	118
+UY|programacion.tcc.com.uy|286	Disney Jr HD	115
 UY|programacion.tcc.com.uy|287	Cinemax HD	28
 UY|programacion.tcc.com.uy|288	Discovery Kids HD	186
 UY|programacion.tcc.com.uy|289	HGTV	89
 UY|programacion.tcc.com.uy|290	Home & Health HD	59
 UY|programacion.tcc.com.uy|291	Animal Planet HD	66
-UY|programacion.tcc.com.uy|292	TLC HD	57
-UY|programacion.tcc.com.uy|293	Discovery Theater HD	63
+UY|programacion.tcc.com.uy|292	TLC HD	56
+UY|programacion.tcc.com.uy|293	Discovery Theater HD	64
 UY|programacion.tcc.com.uy|294	Discovery Turbo HD	66
 UY|programacion.tcc.com.uy|295	Investigation Discovery	67
 UY|programacion.tcc.com.uy|296	CGTN Español HD	100
 UY|programacion.tcc.com.uy|297	Cinecanal HD	24
 UY|programacion.tcc.com.uy|298	Love Nature HD	56
 UY|programacion.tcc.com.uy|299	Sun Channel HD	94
-UY|programacion.tcc.com.uy|300	Europa Europa HD	28
+UY|programacion.tcc.com.uy|300	Europa Europa HD	29
 UY|programacion.tcc.com.uy|301	IVC HD	0
-UY|programacion.tcc.com.uy|302	History HD	57
+UY|programacion.tcc.com.uy|302	History HD	58
 UY|programacion.tcc.com.uy|303	National Geographic HD	54
 UY|programacion.tcc.com.uy|304	AXN HD	58
-UY|programacion.tcc.com.uy|305	Warner HD	67
-UY|programacion.tcc.com.uy|306	Film & Arts HD	52
+UY|programacion.tcc.com.uy|305	Warner HD	56
+UY|programacion.tcc.com.uy|306	Film & Arts HD	51
 UY|programacion.tcc.com.uy|308	CNN Español	51
-UY|programacion.tcc.com.uy|309	ESPN 4 HD	31
+UY|programacion.tcc.com.uy|309	ESPN 4 HD	34
 UY|programacion.tcc.com.uy|310	Fox Sports 2 HD	30
 UY|programacion.tcc.com.uy|311	Fox Sports 3 HD	30
 UY|programacion.tcc.com.uy|312	ESPN HD	39
-UY|programacion.tcc.com.uy|313	ESPN 2 HD	43
-UY|programacion.tcc.com.uy|314	ESPN 3 HD	34
+UY|programacion.tcc.com.uy|313	ESPN 2 HD	42
+UY|programacion.tcc.com.uy|314	ESPN 3 HD	39
 UY|programacion.tcc.com.uy|315	ESPN EXTRA	44
 UY|programacion.tcc.com.uy|316	TyC Sports HD	33
-UY|programacion.tcc.com.uy|317	Adrenalina Sports HD	27
-UY|programacion.tcc.com.uy|319	E!	57
+UY|programacion.tcc.com.uy|317	Adrenalina Sports HD	29
+UY|programacion.tcc.com.uy|319	E!	59
 UY|programacion.tcc.com.uy|320	TruTV HD	0
 UY|programacion.tcc.com.uy|321	Food Network HD	82
 UY|programacion.tcc.com.uy|322	Paramount HD	0
-UY|programacion.tcc.com.uy|323	Allegro HD	33
-UY|programacion.tcc.com.uy|324	Golden Premier HD	32
-UY|programacion.tcc.com.uy|325	Golden Premier 2 HD	32
+UY|programacion.tcc.com.uy|323	Allegro HD	35
+UY|programacion.tcc.com.uy|324	Golden Premier HD	31
+UY|programacion.tcc.com.uy|325	Golden Premier 2 HD	31
 UY|programacion.tcc.com.uy|326	Pasiones	50
 UY|programacion.tcc.com.uy|327	Las Estrellas HD	48
 UY|programacion.tcc.com.uy|329	El Gourmet HD	96
 UY|programacion.tcc.com.uy|330	Sony HD	49
 UY|programacion.tcc.com.uy|333	TV Ciudad HD	53
-UY|programacion.tcc.com.uy|334	Asuntos Publicos HD	56
+UY|programacion.tcc.com.uy|334	Asuntos Publicos HD	55
 UY|programacion.tcc.com.uy|335	TCC 1	14
 UY|programacion.tcc.com.uy|336	TCC 2	6
 UY|programacion.tcc.com.uy|337	America	34
 UY|programacion.tcc.com.uy|339	TN HD	25
 UY|programacion.tcc.com.uy|384	Hola TV HD	74
-UY|programacion.tcc.com.uy|387	Baby TV	735
+UY|programacion.tcc.com.uy|387	Baby TV	736
 UY|programacion.tcc.com.uy|388	Tooncast	236
-UY|programacion.tcc.com.uy|389	Cartoonito HD	340
-UY|programacion.tcc.com.uy|390	History 2 HD	63
+UY|programacion.tcc.com.uy|389	Cartoonito HD	342
+UY|programacion.tcc.com.uy|390	History 2 HD	67
 UY|programacion.tcc.com.uy|391	A3 Cine HD	30
 UY|programacion.tcc.com.uy|392	Lifetime	41
-UY|programacion.tcc.com.uy|393	A3 Series HD	46
-UY|programacion.tcc.com.uy|394	A&E HD	64
+UY|programacion.tcc.com.uy|393	A3 Series HD	44
+UY|programacion.tcc.com.uy|394	A&E HD	63
 UY|programacion.tcc.com.uy|395	Canal 5 HD	44
 UY|programacion.tcc.com.uy|396	Discovery World HD	102
 UY|programacion.tcc.com.uy|397	Studio Universal HD	31
 UY|programacion.tcc.com.uy|399	HBO Family	30
 UY|programacion.tcc.com.uy|400	HBO Mundi HD	27
-UY|programacion.tcc.com.uy|401	HBO Xtreme HD	29
+UY|programacion.tcc.com.uy|401	HBO Xtreme HD	30
 UY|programacion.tcc.com.uy|402	HBO POP HD	29
 UY|programacion.tcc.com.uy|403	Multicinema HD	28
 UY|programacion.tcc.com.uy|404	Canal a	81
-UY|programacion.tcc.com.uy|405	Encuentro	87
+UY|programacion.tcc.com.uy|405	Encuentro	88
 UY|programacion.tcc.com.uy|406	Glitz	0
 UY|programacion.tcc.com.uy|407	Discovery Science HD	62
 UY|programacion.tcc.com.uy|409	A+V	23
 UY|programacion.tcc.com.uy|410	TCC 3	6
 UY|programacion.tcc.com.uy|411	Cronica TV	38
-UY|programacion.tcc.com.uy|412	Deustche Welle	93
+UY|programacion.tcc.com.uy|412	Deustche Welle	95
 UY|programacion.tcc.com.uy|413	TV5	0
 UY|programacion.tcc.com.uy|414	Record Internacional	54
 UY|programacion.tcc.com.uy|415	TV Galicia	53
-UY|programacion.tcc.com.uy|416	ETB Canal Vasco	44
+UY|programacion.tcc.com.uy|416	ETB Canal Vasco	37
 UY|programacion.tcc.com.uy|417	La Nacion	28
 UY|programacion.tcc.com.uy|418	C5N	26
 UY|programacion.tcc.com.uy|419	TV Chile	0
@@ -1134,9 +1134,9 @@ UY|programacion.tcc.com.uy|421	TV Globo	59
 UY|programacion.tcc.com.uy|422	America 24	34
 UY|programacion.tcc.com.uy|423	CNN Internacional	55
 UY|programacion.tcc.com.uy|424	Fox News	0
-UY|programacion.tcc.com.uy|425	BBC World	124
-UY|programacion.tcc.com.uy|426	Bloomberg	40
-UY|programacion.tcc.com.uy|427	Nick Jr.	144
+UY|programacion.tcc.com.uy|425	BBC World	122
+UY|programacion.tcc.com.uy|426	Bloomberg	39
+UY|programacion.tcc.com.uy|427	Nick Jr.	143
 UY|programacion.tcc.com.uy|428	Nickelodeon	134
 UY|programacion.tcc.com.uy|429	MTV	0
 UY|programacion.tcc.com.uy|430	MTV Hits	0
@@ -1146,32 +1146,32 @@ UY|programacion.tcc.com.uy|433	Much Music	0
 UY|programacion.tcc.com.uy|434	MTV HD	0
 UY|programacion.tcc.com.uy|435	Playboy	81
 UY|programacion.tcc.com.uy|436	PPV 16 Brazzers	0
-UY|programacion.tcc.com.uy|437	PPV 15 Penthouse	33
+UY|programacion.tcc.com.uy|437	PPV 15 Penthouse	32
 UY|programacion.tcc.com.uy|438	PPV 14 Sextreme	39
 UY|programacion.tcc.com.uy|439	Climax	0
 UY|programacion.tcc.com.uy|440	Venus	36
 UY|programacion.tcc.com.uy|441	Universal HD	60
 UY|programacion.tcc.com.uy|443	Telemundo	0
-UY|programacion.tcc.com.uy|444	Deutsche Welle Español HD	93
+UY|programacion.tcc.com.uy|444	Deutsche Welle Español HD	95
 UY|programacion.tcc.com.uy|445	Telefe HD	46
 UY|programacion.tcc.com.uy|448	TCC VIVO	14
-UY|programacion.tcc.com.uy|450	1000xHora	82
+UY|programacion.tcc.com.uy|450	1000xHora	79
 UY|programacion.tcc.com.uy|452	Universal Premiere	62
-UY|programacion.tcc.com.uy|453	Universal Cinema	30
-UY|programacion.tcc.com.uy|454	Universal Reality	73
+UY|programacion.tcc.com.uy|453	Universal Cinema	32
+UY|programacion.tcc.com.uy|454	Universal Reality	74
 UY|programacion.tcc.com.uy|455	Universal Comedy	102
-UY|programacion.tcc.com.uy|456	Universal Crime	66
-UY|programacion.tcc.com.uy|468	Sony Movies	42
-UY|programacion.tcc.com.uy|469	Antena 3	36
+UY|programacion.tcc.com.uy|456	Universal Crime	65
+UY|programacion.tcc.com.uy|468	Sony Movies	40
+UY|programacion.tcc.com.uy|469	Antena 3	35
 UY|programacion.tcc.com.uy|470	Canal 9	42
 UY|programacion.tcc.com.uy|473	VTV HD	0
 UY|programacion.tcc.com.uy|474	VTV Plus HD	0
 UY|programacion.tcc.com.uy|475	GOL TV VO HD	0
 UY|programacion.tcc.com.uy|563	Mas Chic	0
-UY|programacion.tcc.com.uy|688	Campo Rural TV	23
+UY|programacion.tcc.com.uy|688	Campo Rural TV	24
 UY|programacion.tcc.com.uy|689	Univision	40
 UY|programacion.tcc.com.uy|691	Kanal D	60
-UY|programacion.tcc.com.uy|737	USA	62
+UY|programacion.tcc.com.uy|737	USA	61
 epgshare01.online|DIRECTVSPORTS1#DSPORTS.(ARG).dtvsp	DSPORTS (ARG)	37
 epgshare01.online|DIRECTVSPORTS1#DSPORTS.+.HD.dtvsp	DSPORTS + HD	30
 epgshare01.online|DIRECTVSPORTS1#DSPORTS.2.HD.dtvsp	DSPORTS 2 HD	33
